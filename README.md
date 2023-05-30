@@ -15,26 +15,27 @@
 </h3>
 
 ------
-![GitHub forks](https://img.shields.io/github/forks/jaisingh007/NobiUb?style=social)
-![GitHub Repo stars](https://img.shields.io/github/stars/jaisingh007/NobiUb?style=social)
+![GitHub forks](https://img.shields.io/github/forks/jaisingh007/THE-NOBI_UB?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/jaisingh007/THE-NOBI_UB?style=social)
 
-![Repo Size](https://img.shields.io/github/repo-size/jaisingh007/NobiUb?&style=social&logo=github)
+![Repo Size](https://img.shields.io/github/repo-size/jaisingh007/THE-NOBI_UB?&style=social&logo=github)
 ![Branch](https://img.shields.io/badge/Branch-nobi-white?&style=social&logo=github)
 
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-white?&style=social&logo=hugo)
-![GitHub license](https://img.shields.io/github/license/jaisingh007/NobiUb?&style=social&logo=github)
+![GitHub license](https://img.shields.io/github/license/jaisingh007/THE-NOBI_UB?&style=social&logo=github)
 
 ![Python](https://img.shields.io/badge/Python-v3.10-white?style=social&logo=python)
-![GitHub language count](https://img.shields.io/github/languages/count/jaisingh007/NobiUb?&style=social&logo=hyper)
+![GitHub language count](https://img.shields.io/github/languages/count/jaisingh007/THE-NOBI_UB?&style=social&logo=hyper)
 
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/nobita_x_support)
 [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-white?&style=social&logo=telegram)](https://t.me/jai_production)
+[![Network Channel](https://img.shields.io/badge/Telegram-Channel-white?&style=social&logo=telegram)](https://t.me/THE_NOBIUB)
 
 ------
 ## Deploy 🚀
 - [![Heroku](https://img.shields.io/badge/-Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku)](#Deploy-To-Heroku)
 
-- [![Locally](https://img.shields.io/badge/NobiUb-Deploy%20Locally-black?style=for-the-badge&logo=linux)](#Deploy-Locally)
+- [![Locally](https://img.shields.io/badge/THE-NOBI_UB-Deploy%20Locally-black?style=for-the-badge&logo=linux)](#Deploy-Locally)
 ------
 ## Deploy To Heroku
 - Get All The Necessary Variables And Deploy To Heroku.
@@ -42,7 +43,7 @@
 - Fork & Star this repo.
 - Click on below button to access deploy page.
 - NOTE: Click on deploy button from your fork only.
-- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/jaisingh007/NobiUb)
+- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/jaisingh007/THE-NOBI_UB)
 
 ------
 
@@ -51,10 +52,10 @@
 ## Deploy Locally
 
 - Clone the repo. 
-`git clone https://github.com/jaisingh007/NobiUb`
+`git clone https://github.com/jaisingh007/THE-NOBI_UB`
 
 - Open Cloned Folder.
-`cd NobiUb`
+`cd THE-NOBI_UB`
 
 - Create VirtualEnv.
 `virtualenv -p /usr/bin/python3 venv`
@@ -109,7 +110,7 @@
 - Open the terminal.
 - Paste this code.
 
-`pkg install python wget -y && pip install telethon && pip install pyrogram && wget https://raw.githubusercontent.com/jaisingh007/NOBI-PLUGINS-T/nobi_string.py && python3 nobi_string.py`
+`pkg install python wget -y && pip install telethon && pip install pyrogram && wget https://github.com/Jaisingh007/plugins-T/blob/nobi/nobi_string.py && python3 nobi_string.py`
 
 - Select the type of session.
     - Telethon
