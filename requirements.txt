@@ -46,5 +46,5 @@ vcam
 
 git+https://github.com/jaisingh007/py-googletrans
 git+https://github.com/jaisingh007/Wikipedia
-git+https://github.com//HellBoy-OPyt-dp-fork
+git+https://github.com/HellBoy-OP/yt-dp-fork
 git+https://github.com/HellBoy-OP/yt-search-python
