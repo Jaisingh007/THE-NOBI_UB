@@ -1,0 +1,36 @@
+#!/bin/bash
+
+
+_nobi_zip () {
+    if [[ $GIT_REPO ]]
+    then
+        echo "https://github.com/${GIT_REPO}/archive/nobi.zip"
+    else
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1IZWxsQm90L1BsdWdpbnMtVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+    fi
+}
+
+_library () {
+    if [[ $BOT_LIBRARY == "pyrogram" ]]
+    then 
+        python3 -m Pyrogramnobi
+    else
+        python3 -m TelethonNobi
+    fi
+}
+
+_starter () {
+    local nobipath
+    nobipath="Plugins.zip"
+    echo "••• DOWNLOADING NobiUb •••"
+    wget -q $(_nobi_zip) -O "$nobipath"
+    nobiPATH=$(zipinfo -1 "$nobipath" | grep -v "/.");
+    unzip -qq "$nobipath"
+    rm -rf "$nobipath"
+    cd $nobiPATH
+    python3 ../updater.py ../requirements.txt requirements.txt
+    echo "••• STARTING NobiUb •••"
+    _library
+}
+
+_starter
